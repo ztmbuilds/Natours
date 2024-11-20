@@ -1,6 +1,64 @@
 # Description
 
-This project is a Tour Booking API built with Node.js, Express, and MongoDB. It allows users to book tours, leave reviews, and manage their bookings. The API includes features such as user authentication, image upload and processing, and data sanitization.
+This is a Tour Booking API that provide functionalities for users to book tours, submit reviews, and manage their bookings seamlessly.
+
+## Built with
+
+- Node.js
+- Expressjs
+- MongoDB
+- Mongoose
+
+## Features
+
+### User Features
+
+- User signup, login, and logout
+- Password reset and update
+- Profile update and deletion
+- Admin-only user management
+
+### Tour Features
+
+- Create, read, update, and delete tours
+- Get top 5 cheap tours
+- Get tour statistics
+- Get monthly plan for tours
+- Get tours within a certain distance
+- Get distances to tours from a point
+
+### Review Features
+
+- Create, read, update, and delete reviews
+- Nested routes for reviews on tours
+- Booking Features
+- Create, read, update, and delete bookings
+- Get checkout session for booking tours
+
+## Built with
+
+- Node.js
+- Expressjs
+- MongoDB
+
+## Getting Started
+
+### Prerequisites
+
+The tools listed below are needed to run this application:
+
+- Node
+- Npm
+
+You can check the Node.js and npm versions by running the following commands.
+
+### Check node.js version
+
+`node -v`
+
+### Check npm version
+
+`npm -v`
 
 ## Installation
 
